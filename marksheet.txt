@@ -1,0 +1,171 @@
+void main()
+{
+  
+  
+
+  var name ="\t\t\ALI SIDDIQUI";
+  
+  num english = 57;
+  num urdu = 86;
+  num maths=77;
+  num computer = 83;
+  num physics = 66;
+  
+  
+   print("_________________________________________________________________"); 
+  print("|Name : ${name}\t\t\t\t\|");
+  print("|_______________________________________________________________|");
+  
+  print ("|Subject \t\t Marks \t\t\tGrade\t\t|");
+  print("|\t\t\t\t\t\t\t\t\|"); 
+  
+  //english
+  {
+  if(english >= 80)
+  { 
+     
+     print (" |English \t\t  ${english} \t\t\t  A+\\t\t|n");
+  }
+  else if(english<80 && english>=70)
+  {
+     print (" |English \t\t  ${english} \t\t\t  A\t\t|\n ");
+  }
+  else if(english<70 && english>=60)
+  {
+     print (" |English \t\t  ${english} \t\t\t  B\t\t|\n ");
+  }
+  else if(english<60 && english>=50)
+  {
+     print ("| English \t\t  ${english} \t\t\t  C\t\t|");
+     print("|\t\t\t\t\t\t\t\t\|"); 
+  }
+  else{
+     print ("| English \t\t  ${english} \t\t\t  F\t\t|\n ");
+  }
+ }
+  
+  //urdu
+    {
+  if(urdu >= 80)
+  {
+     print ("| Urdu \t\t\t  ${urdu} \t\t\t  A+\t\t| ");
+      print("|\t\t\t\t\t\t\t\t\|"); 
+  }
+  else if(urdu<80 && urdu>=70)
+  {
+     print ("| Urdu \t\t\t  ${urdu} \t\t\t  A\t\t|\n ");
+  }
+  else if(urdu<70 && urdu>=60)
+  {
+     print ("| Urdu \t\t\t  ${urdu} \t\t\t  B\t\t|\n ");
+  }
+  else if(english<60 && english>=50)
+  {
+     print ("| Urdu \t\t\t  ${urdu} \t\t\t  C\t\t|\n ");
+  }
+  else{
+     print ("| Urdu \t\t\t  ${urdu} \t\t\t  F\t\t|\n ");
+  }
+ }
+  //maths
+     {
+  if(maths >= 80)
+  {
+     print ("| Maths \t\t\t  ${maths} \t\t\t  A+\t\t|\n ");
+  }
+  else if(maths<80 && maths>=70)
+  {
+     print ("| Maths \t\t\  ${maths} \t\t\t  A\t\t\|");
+     print("|\t\t\t\t\t\t\t\t\|"); 
+  }
+  else if(maths<70 && maths>=60)
+  {
+     print ("| Maths \t\t\t  ${maths} \t\t\t  B\t\t|\n ");
+  }
+  else if(maths<60 && maths>=50)
+  {
+     print ("| Maths \t\t\t  ${maths} \t\t\t  C\t\t|\n ");
+  }
+  else{
+     print ("| Maths \t\t\t  ${maths} \t\t\t  F\\t\t|n ");
+  }
+ }
+  
+  
+  //computer
+     {
+  if(computer >= 80)
+  {
+     print ("| Computer \t\t  ${computer} \t\t\t  A+\t\t| ");
+     print("|\t\t\t\t\t\t\t\t\|"); 
+  }
+  else if(computer<80 && computer>=70)
+  {
+     print ("| Computer \t\t  ${computer} \t\t\t  A\t\t|\n ");
+  }
+  else if(computer<70 && computer>=60)
+  {
+     print ("| Computer \t\t  ${computer} \t\t\t  B\t\t|\n ");
+  }
+  else if(computer<60 && computer>=50)
+  {
+     print ("| Computer \t\t  ${computer} \t\t\t  C\t\t|\n ");
+  }
+  else{
+     print ("| Computer \t\t  ${computer} \t\t\t  F\t\t|\n ");
+  }
+ }
+  
+  
+  //physics
+     {
+  if(physics >= 80)
+  {
+     print ("| Physics \t\t  ${physics} \t\t\t  A+\t\t|\n ");
+  }
+  else if(physics<80 && physics>=70)
+  {
+     print ("| Physics \t\t  ${physics} \t\t\t  A\t\t|\n ");
+  }
+  else if(physics<70 && physics>=60)
+  {
+     print ("| Physics \t\t  ${physics} \t\t\t  B\t\t|");
+     print("|\t\t\t\t\t\t\t\t\|"); 
+  }
+  else if(physics<60 && physics>=50)
+  {
+     print ("| Physics \t\t  ${physics} \t\t\t  C\\t\t|n ");
+  }
+  else{
+     print ("| Physics \t\t  ${physics} \t\t\t  F\t\t|\n ");
+  }
+ }
+  
+  num total = english+urdu+maths+computer+physics;
+  
+  num percent = total/5;
+  
+  if(percent >= 80)
+  {
+    print ("Total marks: ${total}\t\Percentage: ${percent}\t\Grade:A+");
+  }
+  else if(percent<80 && percent >=70)
+  {
+    print ("|Total marks: ${total}\t\Percentage: ${percent}\t\ Grade: A\t\|");
+  }
+  else if(percent<70 && percent >=60)
+  {
+    print ("Total marks: ${total}\t\t Percentage: ${percent}\t\t Grade: B");
+  }
+  else if(percent<60 && percent >=50)
+  {
+    print ("Total marks: ${total}\t\t Percentage: ${percent}\t\t Grade: C");
+  }
+  else{
+    
+    print ("Total marks: ${total}\t\t Percentage: ${percent}\t\t Grade: F");
+  }
+  print("_________________________________________________________________");
+  
+  
+}
